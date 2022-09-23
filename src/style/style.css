@@ -1,0 +1,106 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h2 {
+    font-family: 'francois_oneregular';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.link-holder {
+    margin: 21px 0 0 0;
+    font-size: 22px;
+    line-height: 18px;
+    color: black;
+}
+
+.link-holder a {
+    font-family: 'tourneythin';
+    text-decoration: none;
+    letter-spacing: 0.04em;
+    color: black;
+}
+
+.nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: initial;
+    padding-top: 17px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-list li {
+    font-family: 'staatlichesregular';
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0 5px;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 120px; 
+    padding-top: 13px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: left;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 120px;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px 5px 20px 0;
+}
+
+.additional-title {
+    font-family: 'farrolight';
+    font-size: 30px;
+    letter-spacing: 0.04em;
+}
+
+.text-holder {
+    font-family: 'pt_sansregular';
+    font-size: 28px;
+    line-height: 48px;
+    padding: 20px 0;
+}
+
+.chapter1 {
+    padding-top: 46px;
+}
+
+mark {
+    background-color: #DADADA;;
+}
+
+a {
+    color: black;
+}
