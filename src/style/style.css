@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-
+h1,
 h2 {
     font-family: 'francois_oneregular';
     font-weight: 400;
@@ -87,6 +87,7 @@ ul {
     font-size: 30px;
     line-height: 30px;
     letter-spacing: 0.04em;
+    vertical-align: top;
 }
 
 .text-holder {
